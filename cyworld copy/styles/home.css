@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 500px;
+    height: 900%;
+    background-color: white;
+
+}
+
+.wrapper__left {
+
+
+}
+
+.header {
+    font-size: 30px;
+	padding-bottom: 8px;
+
+}
+
+.header_line {
+    border-top: 1px dotted black;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.contents {
+    font-size: 9px;
+	padding-bottom: 8px;
+}
+
+.bottom {
+    width: 300px;
+    height: 800%;
+    background-color:white;
+}

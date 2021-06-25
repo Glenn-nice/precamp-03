@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>게임</title>
+    <link href="styles/game.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<script>
+    function startWord() {
+    
+    const word = document.getElementById("word").innerText // 코드캠프
+    const lastword = word[word.length - 1] // france
+    
+    const myword = document.getElementById("myword").value // vmfdktm
+    const firstword = myword[0] //
+
+    console.log(lastword)
+    console.log(firstword)
+    
+    if[lastword === firstword]{
+    // alert("정답입니다!")
+    // 정답일 떄 쓰는 곳
+    document.getElementById("word")
+    
+    } else {
+    // alert("틀렸습니다!")
+    // 틀렸을 때 쓰는 곳
+    }
+    }
+    
+        
+        </script>        
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__header">
+            <span class="title">GAME</span><span class="subtitle">TODAY CHOICE</span>
+        </div>
+        <div class="wrapper__word">
+            <div class="wrapper__word__header">
+                <img src=imges/word.png>
+                <div class="title"> 
+                    끝말잇기
+                </div>
+                <div clas="word">제시어: 코드캠프</div>
+            </div>
+            <div class="wrapper__word__body">
+                <input id="myword" class="textbox" type="text" placeholder="단어를 입력하세요." />
+                <button>검색</button>
+            </div>
+            <div id = "result" class="wrapper__word__footer">
+                결과!
+            </div>
+        </div>
+        <div class="wrapper__lotto"> 
+            <div class="wrapper__lotto__header">
+                <div>
+                    <img src="imges/lotto.png">
+                </div>
+                <div class="title">
+                    LOTTO
+                </div>
+                <div class="word_title">
+                    버튼을 누르세요.
+                </div>
+            </div>  
+            
+            <div class="wrapper__lotto__body">
+                <span>3</span>
+                <span>5</span>
+                <span>10</span>
+                <span>24</span>
+                <span>30</span>
+                <span>34</span>
+            </div>
+            <div class="wrapper__word__footer">
+                <button class="wrapper__lotto__btn" onclick="reset()">Button</button>
+            </div>
+        </div>
+    </div>   
+</body>
+
+</html>
+<!-- 한줄을 이용하기 위해서 span 태그를 사용한다 -->
+<!-- 전체구조를 먼저 잡고 작은 것들을 해낸다 크기 잡고 테두리 잡고 이런식으로 진행 -->
+
+<!-- margin padding justif -->
